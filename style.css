@@ -1,11 +1,4 @@
 
-
-/*
-@media only screen and (min-width: )
-
-*/
-
-
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +13,7 @@
 }
 
 
-/*    MOBILE   */ 
+/*    MOBILE
 
 @media only screen and (min-width: 768px) {
 
@@ -61,6 +54,7 @@
 
 }
 
+   */ 
 
 .hero {
 
