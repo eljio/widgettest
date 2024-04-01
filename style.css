@@ -1,0 +1,71 @@
+
+
+/*
+@media only screen and (min-width: )
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Louis1;
+    src: url(fonts/LouisGeorgeCafeLight.ttf);
+
+    font-family: Brumery;
+    src: url(fonts/Brumery.ttf);
+}
+
+
+/*    MOBILE   */ 
+
+@media only screen and (min-width: 768px) {
+
+    .hero {
+
+        width: 100vw; height: 100vh;
+        background-image: url(img/dark-plain-gray-wall-product-background.jpg); 
+        background-size: cover; background-position-x: center; background-repeat: no-repeat;
+        display: flex;
+    }
+    
+    .header-box {
+    
+        margin: auto; margin-top: 55%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+    
+    }
+    
+    .header {
+    
+        font-family: Brumery;
+        color: white;
+        font-size: 95px;
+        width: 150px;
+    }
+    
+    .icon {
+    
+        width: 70px; height: 150px;
+    }
+
+
+
+}
+
+
+.hero {
+
+    width: 100vw; height: 100vh;
+    background-image: url(img/NewHero.png); 
+    background-size: cover; background-position-x: center; background-repeat: no-repeat;
+    display: flex;
+}
