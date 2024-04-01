@@ -65,7 +65,7 @@
 .hero {
 
     width: 100vw; height: 100vh;
-    background-image: url(img/NewHero.png); 
+    background-image: url(img/Hero.png); 
     background-size: cover; background-position-x: center; background-repeat: no-repeat;
     display: flex;
 }
