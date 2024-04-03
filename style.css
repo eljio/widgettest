@@ -1,65 +1,60 @@
 
-* {
-    margin: 0;
-    padding: 0;
-}
+body {
 
-@font-face {
-    font-family: Louis1;
-    src: url(fonts/LouisGeorgeCafeLight.ttf);
-
-    font-family: Brumery;
-    src: url(fonts/Brumery.ttf);
-}
-
-
-/*    MOBILE
-
-@media only screen and (min-width: 768px) {
-
-    .hero {
-
-        width: 100vw; height: 100vh;
-        background-image: url(img/dark-plain-gray-wall-product-background.jpg); 
-        background-size: cover; background-position-x: center; background-repeat: no-repeat;
-        display: flex;
-    }
-    
-    .header-box {
-    
-        margin: auto; margin-top: 55%;
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    
-    
-    }
-    
-    .header {
-    
-        font-family: Brumery;
-        color: white;
-        font-size: 95px;
-        width: 150px;
-    }
-    
-    .icon {
-    
-        width: 70px; height: 150px;
-    }
-
+    width: 100vw; height: 70vh;
+    background-color: #141414;
+    margin: 0px;
+    overflow: hidden;
 
 
 }
-
-   */ 
 
 .hero {
 
+    display: block;
     width: 100vw; height: 100vh;
-    background-image: url(img/Hero.png); 
-    background-size: cover; background-position-x: center; background-repeat: no-repeat;
-    display: flex;
+    background-image: url(img/web/NBweb-02.png);
+    background-size: cover;
+    margin: 0; padding: 0;
+
 }
+
+
+
+.mobileview {
+
+    display: none;
+    width: 100vw; height: 100vh;
+    background-image: url(img/web/NBweb-01.png);
+    background-size: cover;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    
+    .hero {
+
+        display: none;
+        width: 100vw; height: 100vh;
+        background-image: url(img/web/NBweb-02.png);
+        background-size: cover;
+        margin: 0; padding: 0;
+    }
+    
+    
+    
+    
+    
+    .mobileview {
+        display: block;
+    width: 100vw; height: 100vh;
+    background-image: url(img/web/NBweb-01.png);
+    background-size: cover;
+    }
+
+}
+
+
