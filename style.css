@@ -1,10 +1,16 @@
 
+@font-face {
+    font-family: LouisGeorge;
+    src: url(fonts/LouisGeorgeCafeLight.ttf);
+}
+
+
 body {
 
     width: 100vw; height: 70vh;
     background-color: #141414;
     margin: 0px;
-    overflow: hidden;
+    overflow:visible;
 
 
 }
@@ -13,9 +19,10 @@ body {
 
     display: block;
     width: 100vw; height: 100vh;
-    background-image: url(img/web/NBweb-02.png);
+    background-image: url(img/web/MOBILECOMP_FINAL.mp4);
     background-size: cover;
     margin: 0; padding: 0;
+    overflow: visible;
 
 }
 
@@ -25,11 +32,44 @@ body {
 
     display: none;
     width: 100vw; height: 100vh;
-    background-image: url(img/web/NBweb-01.png);
+    background-image: url(img/web/WEBCOMP_FINAL.mp4);
     background-size: cover;
+    
 }
 
 
+.sociallinks {
+
+    width: 100vw; height: 20vh;
+    color: white;
+    font-family: LouisGeorge;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icons {
+
+    padding-left: 10px;
+}
+
+#ig {
+
+    width: 30px; height: 30px;
+    
+}
+
+.sociallinks2 {
+
+    color: white;
+    font-family: LouisGeorge;
+    font-size: 35px;
+    display: flex;
+
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -39,9 +79,10 @@ body {
 
         display: none;
         width: 100vw; height: 100vh;
-        background-image: url(img/web/NBweb-02.png);
+        background-image: url(img/web/MOBILECOMP_FINAL.mp4);
         background-size: cover;
         margin: 0; padding: 0;
+
     }
     
     
@@ -51,10 +92,140 @@ body {
     .mobileview {
         display: block;
     width: 100vw; height: 100vh;
-    background-image: url(img/web/NBweb-01.png);
+    background-image: url(img/web/WEBCOMP_FINAL.mp4);
     background-size: cover;
+    overflow: visible;
     }
+
+   
+  
+
 
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+body {
+
+    width: 100vw; height: 100vh;
+    background-color: #141414;
+    background-image: url(img/web/hero.png); 
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+
+
+}
+
+.hero {
+
+    width: 100vw; height: 70vh;
+    background-image: url(img/background.gif); 
+    background-size: cover; background-position-x: center; background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo {
+
+    display: flex;
+    width: 50vw;
+    margin: auto;
+
+}
+
+.allaboard {
+
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.video {
+
+    width: 100vw; height: 70vh;
+    background-image: url(); 
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+
+}
+
+
+.top {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.video {
+
+    width: 100vw; height: 70vh;
+    background-image: url(); 
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+
+}
+
+*/
